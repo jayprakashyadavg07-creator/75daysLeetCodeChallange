@@ -17,7 +17,7 @@ public:
         }
 
         // Sort only the valid part of a
-        sort(a.begin(), a.begin() + m);
+        sort(a.begin(), a.begin() + m);//a sort vayo 1,2,2,texpzi 0,0,0(1,2,2,|0,0,0) yo m ho index 3 bata sort garo) (mistek (0,0,0,1,2,2,)) so use +m
 
         // Sort b
         sort(b.begin(), b.end());
@@ -25,6 +25,8 @@ public:
         // Copy b into a
         for (int x = 0; x < n; x++) {
             a[m + x] = b[x];
+            //3+0 index ho  = 3 value ho
+            //a[3] ma =3 rakhne[1,2,2,3(put),0,0]
         }
     }
 };
