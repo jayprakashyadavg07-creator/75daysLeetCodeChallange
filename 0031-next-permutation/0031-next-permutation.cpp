@@ -27,6 +27,6 @@ public:
         }
 
         // Reverse the suffix//[1,2,,5,4,3] pivot k ho 2 aaba 2 paxi vaneko pivot+1 ho matlb 5 ,4,3 shor garn code le hunxa 3,4,5 end samma 
-        reverse(nums.begin() + pivot + 1, nums.end());
+        reverse(nums.begin() + pivot + 1, nums.end());//reverse(nums.begin() + 2, nums.end());
     }
 };
