@@ -4,19 +4,19 @@ public:
 
         unordered_set<char> ans;
 
-        int i = 0;
+        int count = 0;
         int maxLength = 0;
 
         for (int j = 0; j < s.length(); j++) {
 
-            while (ans.find(s[j]) != ans.end()) {
-                ans.erase(s[i]);
-                i++;
+            while (ans.count(s[j])) {
+                ans.erase(s[count]);
+                count++;
             }
 
             ans.insert(s[j]);
 
-            maxLength = max(maxLength, j - i + 1);
+            maxLength = max(maxLength, j - count + 1);
         }
 
         return maxLength;
