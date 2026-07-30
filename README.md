@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/jayprakashyadavg07-creator/75daysLeetCodeChallange/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0169-majority-element](https://github.com/jayprakashyadavg07-creator/75daysLeetCodeChallange/tree/master/0169-majority-element) |
 ## Divide and Conquer
 |  |
@@ -73,4 +74,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/jayprakashyadavg07-creator/75daysLeetCodeChallange/tree/master/0074-search-a-2d-matrix) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/jayprakashyadavg07-creator/75daysLeetCodeChallange/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/jayprakashyadavg07-creator/75daysLeetCodeChallange/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
