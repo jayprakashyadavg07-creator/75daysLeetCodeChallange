@@ -9,7 +9,7 @@ public:
 
         for (int j = 0; j < s.length(); j++) {
 
-            while (ans.count(s[j])) {
+            while (ans.find(s[j]) != ans.end()) {
                 ans.erase(s[i]);
                 i++;
             }
